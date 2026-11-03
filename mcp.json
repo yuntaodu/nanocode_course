@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "D:\\课程\\2026春季\\刘磊老师\\nanocode-master\\nanocode-master\\mcp_skill\\data\\memory.jsonl"
+      }
+    }
+  }
+}
